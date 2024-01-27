@@ -17,4 +17,3 @@ function generate() {
     }
    
 }
-console.log(input.value);
