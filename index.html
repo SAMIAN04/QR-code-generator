@@ -7,9 +7,10 @@
     <title>QR code generetor</title>
 </head>
 <body class="bg-gray-800 flex justify-center items-center content-center ">
-    <div class="flex w-80 h-auto bg-gray-700 mt-48 rounded-xl flex-col justify-center items-center py-4 ">
-       <h1 class="text-white font-bold text-3xl mb-6">  QR code generator</h1>
-       <input type="text" class="mb-5 p-2 w-[85%] rounded-md flex justify-center items-center text-center text-lg text-gray-800 font-semibold bg-[#f3fcfcf7]" placeholder="Your text" id="input">
+    <div class="flex h-[100vh] w-[100vw] justify-center items-center ">
+    <div class="flex w-80 h-auto bg-gray-700  rounded-xl flex-col justify-center items-center py-4 ">
+       <h1 class="text-white font-bold text-3xl mb-6"> QR code generator</h1>
+       <input type="text" class="mb-5 p-2 w-[85%] rounded-md flex justify-center items-center text-center text-lg text-gray-800 font-semibold bg-[#f3fcfcf7] overflow-scroll" placeholder="Your text" id="input">
        <div class="flex w-[165px]  h-[165px] bg-slate-400 rounded-lg text-gray-800 font-bold text-xl  items-center relative   justify-center " id="qr">
         
           <div class="flex  w-[155px] h-[155px] justify-center items-center">
@@ -19,6 +20,7 @@
        </div>
        <button class="bg-green-300 px-8 py-4 mt-6 w-[85%] rounded-lg text-2xl"  id="btn"> Ganerate</button>
     </div>
+</div>
     <script src="qr.js"></script>
 </body>
 </html>
